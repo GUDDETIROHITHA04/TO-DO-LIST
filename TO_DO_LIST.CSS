@@ -1,0 +1,85 @@
+body{
+    margin:0px;
+    width: 250px;
+}
+
+ul{
+    margin:0px;
+    padding: 0px;
+}
+ul li{
+    cursor: pointer;
+    position: relative;
+    text-align: left;
+    padding: 18px 13px 13px 30px ;
+    list-style: none;
+    width: 437px;
+    background: rgb(91, 105, 98);
+    font-size: 20px;
+    transition: 0.3s;
+}
+ul li:nth-child(odd){
+    background-color: rgb(187, 200, 220);
+}
+ul li:hover{
+    background-color:rgb(126, 119, 138);
+}
+ul li.checked::before{
+    content: '';
+    position: absolute;
+    border: 1px solid #fff;
+    border-width: 0px 2px 2px 0px;
+    top: 10px;
+    left:15px;
+    transform: rotate(45deg);
+    height: 16px;
+    width: 8px;
+}
+.close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px 16px 12px 16px;
+  }
+  
+  .header {
+    background-color: rgb(144, 164, 202);
+    padding: 30px 40px;
+    width: 400px;
+    color: white;
+    text-align: center;
+  }
+
+  .header:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  input {
+    margin: 0;
+    border: none;
+    border-radius: 0;
+    width: 86%;
+    padding: 8px;
+    float: center;
+    font-size: 19px;
+  }
+  
+  .addBtn {
+    padding: 10px;
+    width: 5%;
+    background: #d9d9d9;
+    color: #717171;
+    float: right;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    color: rgb(42, 41, 41);
+    border-radius: 0;
+  }
+  
+  .addBtn:hover {
+    background-color: #bbb;
+  }
