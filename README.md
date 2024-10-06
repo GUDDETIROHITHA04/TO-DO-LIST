@@ -1,1 +1,26 @@
-# TO-DO-LIST
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple-To-Do-List</title>
+    <link rel="stylesheet" href="./TO_DO_LIST.CSS">
+</head>
+<body>
+    <div id="myDIV" class="header">
+        <h2>My To Do List</h2>
+        <input type="text" id="myInput" placeholder="Title...">
+        <span onclick="newElement()" class="addBtn">Add</span>
+      </div>
+      
+      <ul id="myUL">
+        <li>Meditation</li>
+        <li class="checked">Pay bills</li>
+        <li>Wash clothes</li>
+        <li>Buy vegetables</li>
+        <li>Do to a task</li>
+        <li>Organize office</li>
+      </ul>
+    <script src="./TO_DO_LIST.js"></script>
+</body>
+</html>
